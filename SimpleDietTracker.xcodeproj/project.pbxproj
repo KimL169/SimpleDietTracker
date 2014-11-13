@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8524211A14CEE100D5031E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8524201A14CEE100D5031E /* main.m */; };
+		3B8524241A14CEE100D5031E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8524231A14CEE100D5031E /* AppDelegate.m */; };
+		3B8524271A14CEE100D5031E /* SimpleDietTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B8524251A14CEE100D5031E /* SimpleDietTracker.xcdatamodeld */; };
+		3B8524291A14CEE100D5031E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8524281A14CEE100D5031E /* Images.xcassets */; };
+		3B8524351A14CEE100D5031E /* SimpleDietTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8524341A14CEE100D5031E /* SimpleDietTrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B85242F1A14CEE100D5031E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8524131A14CEE100D5031E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B85241A1A14CEE100D5031E;
+			remoteInfo = SimpleDietTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B85241B1A14CEE100D5031E /* SimpleDietTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDietTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B85241F1A14CEE100D5031E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8524201A14CEE100D5031E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8524221A14CEE100D5031E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B8524231A14CEE100D5031E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B8524261A14CEE100D5031E /* SimpleDietTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleDietTracker.xcdatamodel; sourceTree = "<group>"; };
+		3B8524281A14CEE100D5031E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B85242E1A14CEE100D5031E /* SimpleDietTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDietTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8524331A14CEE100D5031E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8524341A14CEE100D5031E /* SimpleDietTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDietTrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8524181A14CEE100D5031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B85242B1A14CEE100D5031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8524121A14CEE100D5031E = {
+			isa = PBXGroup;
+			children = (
+				3B85241D1A14CEE100D5031E /* SimpleDietTracker */,
+				3B8524311A14CEE100D5031E /* SimpleDietTrackerTests */,
+				3B85241C1A14CEE100D5031E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B85241C1A14CEE100D5031E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B85241B1A14CEE100D5031E /* SimpleDietTracker.app */,
+				3B85242E1A14CEE100D5031E /* SimpleDietTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B85241D1A14CEE100D5031E /* SimpleDietTracker */ = {
+			isa = PBXGroup;
+			children = (
+				3B8524221A14CEE100D5031E /* AppDelegate.h */,
+				3B8524231A14CEE100D5031E /* AppDelegate.m */,
+				3B8524281A14CEE100D5031E /* Images.xcassets */,
+				3B8524251A14CEE100D5031E /* SimpleDietTracker.xcdatamodeld */,
+				3B85241E1A14CEE100D5031E /* Supporting Files */,
+			);
+			path = SimpleDietTracker;
+			sourceTree = "<group>";
+		};
+		3B85241E1A14CEE100D5031E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B85241F1A14CEE100D5031E /* Info.plist */,
+				3B8524201A14CEE100D5031E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8524311A14CEE100D5031E /* SimpleDietTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8524341A14CEE100D5031E /* SimpleDietTrackerTests.m */,
+				3B8524321A14CEE100D5031E /* Supporting Files */,
+			);
+			path = SimpleDietTrackerTests;
+			sourceTree = "<group>";
+		};
+		3B8524321A14CEE100D5031E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8524331A14CEE100D5031E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B85241A1A14CEE100D5031E /* SimpleDietTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8524381A14CEE100D5031E /* Build configuration list for PBXNativeTarget "SimpleDietTracker" */;
+			buildPhases = (
+				3B8524171A14CEE100D5031E /* Sources */,
+				3B8524181A14CEE100D5031E /* Frameworks */,
+				3B8524191A14CEE100D5031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDietTracker;
+			productName = SimpleDietTracker;
+			productReference = 3B85241B1A14CEE100D5031E /* SimpleDietTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B85242D1A14CEE100D5031E /* SimpleDietTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B85243B1A14CEE100D5031E /* Build configuration list for PBXNativeTarget "SimpleDietTrackerTests" */;
+			buildPhases = (
+				3B85242A1A14CEE100D5031E /* Sources */,
+				3B85242B1A14CEE100D5031E /* Frameworks */,
+				3B85242C1A14CEE100D5031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8524301A14CEE100D5031E /* PBXTargetDependency */,
+			);
+			name = SimpleDietTrackerTests;
+			productName = SimpleDietTrackerTests;
+			productReference = 3B85242E1A14CEE100D5031E /* SimpleDietTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8524131A14CEE100D5031E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Kim;
+				TargetAttributes = {
+					3B85241A1A14CEE100D5031E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3B85242D1A14CEE100D5031E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3B85241A1A14CEE100D5031E;
+					};
+				};
+			};
+			buildConfigurationList = 3B8524161A14CEE100D5031E /* Build configuration list for PBXProject "SimpleDietTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B8524121A14CEE100D5031E;
+			productRefGroup = 3B85241C1A14CEE100D5031E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B85241A1A14CEE100D5031E /* SimpleDietTracker */,
+				3B85242D1A14CEE100D5031E /* SimpleDietTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8524191A14CEE100D5031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8524291A14CEE100D5031E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B85242C1A14CEE100D5031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8524171A14CEE100D5031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8524241A14CEE100D5031E /* AppDelegate.m in Sources */,
+				3B8524211A14CEE100D5031E /* main.m in Sources */,
+				3B8524271A14CEE100D5031E /* SimpleDietTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B85242A1A14CEE100D5031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8524351A14CEE100D5031E /* SimpleDietTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8524301A14CEE100D5031E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B85241A1A14CEE100D5031E /* SimpleDietTracker */;
+			targetProxy = 3B85242F1A14CEE100D5031E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B8524361A14CEE100D5031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B8524371A14CEE100D5031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8524391A14CEE100D5031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SimpleDietTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B85243A1A14CEE100D5031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SimpleDietTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B85243C1A14CEE100D5031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDietTracker.app/SimpleDietTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleDietTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3B85243D1A14CEE100D5031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleDietTracker.app/SimpleDietTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleDietTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8524161A14CEE100D5031E /* Build configuration list for PBXProject "SimpleDietTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8524361A14CEE100D5031E /* Debug */,
+				3B8524371A14CEE100D5031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8524381A14CEE100D5031E /* Build configuration list for PBXNativeTarget "SimpleDietTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8524391A14CEE100D5031E /* Debug */,
+				3B85243A1A14CEE100D5031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B85243B1A14CEE100D5031E /* Build configuration list for PBXNativeTarget "SimpleDietTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B85243C1A14CEE100D5031E /* Debug */,
+				3B85243D1A14CEE100D5031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B8524251A14CEE100D5031E /* SimpleDietTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B8524261A14CEE100D5031E /* SimpleDietTracker.xcdatamodel */,
+			);
+			currentVersion = 3B8524261A14CEE100D5031E /* SimpleDietTracker.xcdatamodel */;
+			path = SimpleDietTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B8524131A14CEE100D5031E /* Project object */;
+}
